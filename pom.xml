@@ -3,12 +3,12 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.ajaxdemo</groupId>
-	<artifactId>AjaxDemo7.18</artifactId>
+	<groupId>com.oauthdemo</groupId>
+	<artifactId>OAuthDemo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
 
-	<name>AjaxDemo7.18</name>
+	<name>OAuthDemo</name>
 	<description>Demo project for Spring Boot</description>
 
 	<parent>
