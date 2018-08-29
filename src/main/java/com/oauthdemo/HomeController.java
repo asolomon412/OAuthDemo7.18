@@ -27,8 +27,8 @@ public class HomeController {
 	public ModelAndView result(@RequestParam("code") String code) {
 		System.out.println(code); // testing that the code is coming through
 			
-		RestTemplate restTemplate2 = new RestTemplate();
-		GithubToken token = restTemplate2.getForObject("https://github.com/login/oauth/access_token?client_id=" + cId + "&client_secret=" + cSecret
+		RestTemplate restTemplate = new RestTemplate();
+		GithubToken token = restTemplate.getForObject("https://github.com/login/oauth/access_token?client_id=" + cId + "&client_secret=" + cSecret
 				+ "&redirect_uri=http://localhost:8080/result&state=hakhhfuahuhwauhfahjahfa&code=" + code, GithubToken.class);
 		
 		System.out.println(token.getAccessToken()); // testing for the access token being returned
