@@ -11,8 +11,7 @@
 <body>
 <h1>You let me authorize your info! Thanks!</h1>
 
-<h1>${test.accessToken }</h1>
-
+<h1>${test }</h1>
 
 	<script type="text/javascript">
 	
